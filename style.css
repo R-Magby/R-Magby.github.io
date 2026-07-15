@@ -312,6 +312,16 @@ h1 {
   margin: 0 0 14px;
 }
 
+.project-image {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  margin: 4px 0 20px;
+  filter: saturate(0.85) brightness(0.95);
+}
+
 .footer-links {
   display: flex;
   flex-wrap: wrap;
